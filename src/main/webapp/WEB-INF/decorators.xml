@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+
+	<!-- apply Web template -->
+	<decorator name="trang-chu" page="web.jsp">
+		<pattern>/trang-chu</pattern>
+	</decorator>
+
+
+	<!-- apply Web template -->
+	<decorator name="home" page="admin.jsp">
+		<pattern>/home</pattern>
+	</decorator>
+	
+</decorators>
