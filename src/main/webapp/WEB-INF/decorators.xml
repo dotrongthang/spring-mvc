@@ -2,14 +2,18 @@
 <decorators defaultdir="/decorators">
 
 	<!-- apply Web template -->
-	<decorator name="trang-chu" page="web.jsp">
-		<pattern>/trang-chu</pattern>
+	<decorator name="web" page="web.jsp">
+		<pattern>/*</pattern>
 	</decorator>
 
 
-	<!-- apply Web template -->
-	<decorator name="home" page="admin.jsp">
-		<pattern>/home</pattern>
+	<!-- apply Admin template -->
+	<decorator name="admin" page="admin.jsp">
+		<pattern>/quan-tri*</pattern>
 	</decorator>
-	
+
+	<decorator page="login.jsp" name="login">
+		<pattern>/dang-nhap</pattern>
+	</decorator>
+
 </decorators>
