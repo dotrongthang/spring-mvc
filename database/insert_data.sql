@@ -1,10 +1,10 @@
 use springmvcbasicfree;
 
-insert into role(code,name) values('ADMIN','Quản trị');
-insert into role(code,name) values('USER','Người dùng');
+insert into role(code,name) values('ADMIN','');
+insert into role(code,name) values('USER','');
 
 insert into user(username,password,fullname,status)
-values('admin','$2a$10$/RUbuT9KIqk6f8enaTQiLOXzhnUkiwEJRdtzdrMXXwU7dgnLKTCYG','trương tùng lâm',1);
+values('admin','$2a$10$/RUbuT9KIqk6f8enaTQiLOXzhnUkiwEJRdtzdrMXXwU7dgnLKTCYG','',1);
 insert into user(username,password,fullname,status)
 values('nguyenvana','$2a$10$/RUbuT9KIqk6f8enaTQiLOXzhnUkiwEJRdtzdrMXXwU7dgnLKTCYG','nguyễn văn A',1);
 insert into user(username,password,fullname,status)

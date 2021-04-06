@@ -4,5 +4,6 @@
         <class>com.project.entity.NewEntity</class>
         <class>com.project.entity.UserEntity</class>
         <class>com.project.entity.RoleEntity</class>
+        <class>com.project.entity.CategoryEntity</class>
     </persistence-unit>
 </persistence>
